@@ -1,0 +1,149 @@
+col.tprais{
+width:17px;
+}
+col.tdrais {
+width:55px;
+}
+.tdnrais {
+
+}
+.tblhead{
+    position: fixed;
+    top: 30px;
+}
+.thead{
+width:100%;
+background:white;
+}
+.scrolbl{
+    margin-top: 60px;
+	min-width:475px;
+}
+.tblhead TH{
+font-size:14px;
+background-color:#FFFFFF;
+border-collapse: collapse;
+}
+.tblhead TD{
+border:0px;
+}
+col.airpsml{
+width:70px;
+min-width:70px;
+}
+col.logcompany{
+width:52px;
+}
+col.company {
+width:133px;
+}
+col.dopinfo{
+width:70px;
+}
+col.plain {
+width:285px;
+}
+col.plnsml{
+width:80px;
+min-width:80px;
+}
+col.airport {
+width:140px;
+}
+col.deptime {
+width:65px;
+}
+col.arrtime{
+width:65px;
+}
+col.status{
+width:70px;
+}
+ 
+.piktogramma{
+height:15px;
+width:auto;
+}
+.bgmod{
+	z-index:1;
+	background-color: rgba(69, 69, 69, 0.44);
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	display:none;
+}
+.shortairport, .plainsml, .inviz{
+display:none;
+}
+.viz{
+display:table-cell;
+}
+
+.imglogo{
+	height:auto;
+width:50px;
+}
+.modal{
+display:none;
+position:absolute;
+z-index:2;
+background:#FFFFFF;
+padding: 10px;
+border-radius: 10px;
+}
+.modal TABLE {
+    border-collapse: collapse; /* “бираем двойные линии между Ячейками */
+   }
+ .modal TD {
+    padding: 15px;
+   }
+   .modal TR {
+       border-bottom: 1px dotted black;
+   }
+  .modal>TH {
+    background: #b0e0e6; /* –вет фона */
+   }
+   .scrolbl tr:nth-of-type(even) {
+    background-color: #C9DCFA; 
+   } 
+   .scrolbl tr:nth-of-type(odd) {
+    background-color: #ffffff; 
+   } 
+   .scrolbl tr:hover {
+    background-color: #99CCFF; /* Цвет фона при наведении */
+    color: #fff; /* Цвет текста при наведении */
+   }
+   col:hover::before {
+    background: #f3bd48; /* Цвет фона при наведении */
+    color: #fff; /* Цвет текста при наведении */
+   }
+  .tddblhead{
+  position:fixed;
+  top:0;
+  }
+  .Tddata{
+  margin-top:20px;
+  }
+
+ .lighting_col { background-color: #99CCFF; }
+ .lighting_cell { background-color: #5057E5; }
+ .scrolbl{
+ cursor:pointer;
+ }
+ 
+ @media screen and (max-width: 900px) {
+	.company{
+	display:none;
+	}
+ }
+ @media screen and (max-width: 800px) {
+ .shortairport,.plainsml{
+	display:table-cell;
+ }
+ 
+ .airport,.plain{
+ display:none;
+ }
+ }
